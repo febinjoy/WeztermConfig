@@ -17,7 +17,22 @@ config.window_padding = {
 config.initial_cols = 140
 config.initial_rows = 65
 
-config.window_background_opacity = 0.97
+config.window_background_opacity = 0.98
+
+-- Enable the following if you want to use an image as the background
+-- config.window_background_image = "background.jpg" -- Provide path to image
+-- config.window_background_image_hsb = {
+--      -- Darken the background image by reducing it to 1/3rd
+--      brightness = 0.2,
+--
+--      -- You can adjust the hue by scaling its value.
+--      -- a multiplier of 1.0 leaves the value unchanged.
+--      hue = 1.0,
+--
+--      -- You can adjust the saturation also.
+--      saturation = 1.0,
+-- }
+-- End of background image configuration
 
 config.color_scheme = "Catppuccin Mocha"
 
