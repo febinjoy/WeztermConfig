@@ -1,0 +1,24 @@
+# Add the following to your gitconfig file
+# Download and save https://github.com/dandavison/delta/blob/main/themes.gitconfig in the path specified below.
+[user]
+	name = Febin Joy
+  email = febin.joy@smartrak.com
+
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[include]
+    path = ~/.config/delta/themes.gitconfig
+
+[delta]
+    features = arctic-fox
+    navigate = true    # use n and N to move between diff sections
+    line-numbers = true
+    side-by-side = true
+
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
