@@ -1,6 +1,6 @@
 # WezTerm Configuration
 
-## Install and Configure WezTerm
+## Install WezTerm
 
 Following are the instructions to configure WezTerm. This document assumes that you have WezTerm installed. Install a Nerd font of your choice from [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads) and use in in the config.
 
@@ -31,3 +31,19 @@ nvim wezterm.lua
 Copy-Paste the contents of the config in this repository and restart the terminal.
 
 Enjoy!!!
+
+# TMUX configuration
+
+## Install TMUX
+Use the following to install TMUX
+```
+sudo pacman -S tmux
+```
+Once TMUX is installed, create a new file ~/.tmux.conf and paste the contents of the config file in the repo.
+
+Install TPM 
+Install TPM by cloning the repo with the following command:
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+Reload with <leader> + r and install plugins with <leader> + I (CAPS) 
